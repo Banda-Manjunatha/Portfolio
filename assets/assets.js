@@ -107,7 +107,7 @@ export const workData = [
   },
   {
     title: "Tic-Tac-Toe",
-    description: "A Functional Game",
+    description: "Html, CSS, JS",
     bgImage: "/work-3.png",
     link: "https://manjunath-tic-tac-toe.netlify.app/",
   },

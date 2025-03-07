@@ -53,10 +53,10 @@ const Work = ({ isDarkMode, setIsDarkMode }) => {
               duration: 0.5,
             }}
             key={ind}
-            className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
+            className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group bg-black w-full"
             style={{ backgroundImage: `url(${project.bgImage})` }}
           >
-            <div className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-3 flex items-center justify-between duration-500 group-hover:bottom-7 ">
+            <div className="bg-white w-10/12 rounded-md absolute bottom-3 left-1/2 -translate-x-1/2 py-3 px-3 flex items-center justify-between duration-500 group-hover:bottom-7 shadow-2xl ">
               <div>
                 <h2 className="font-semibold">{project.title}</h2>
                 <p className="text-sm text-gray-700">{project.description}</p>
