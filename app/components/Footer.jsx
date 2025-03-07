@@ -13,16 +13,18 @@ const Footer = ({ isDarkMode, setIsDarkMode }) => {
             className="w-36 mx-auto mb-2"
           />
         </div>
-        <div className="w-full flex items-center justify-center gap-2">
-          <Image
-            src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon}
-            alt=""
-            className="w-6"
-          />
-          <a href="mailto:bandamanjunatha2002@gmail.com">
-            bandamanjunatha2002@gmail.com
-          </a>
-          <p>| +91 - 73865 95869</p>
+        <div className="w-full text-center items-center justify-center flex-col gap-2 sm:flex">
+          <div className="flex items-center gap-3 justify-center">
+            <Image
+              src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon}
+              alt=""
+              className="w-6"
+            />
+            <a href="mailto:bandamanjunatha2002@gmail.com">
+              bandamanjunatha2002@gmail.com
+            </a>
+          </div>
+          <p> +91 - 73865 95869</p>
         </div>
       </div>
       <div className="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
